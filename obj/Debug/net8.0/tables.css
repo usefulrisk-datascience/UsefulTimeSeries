@@ -1,0 +1,19 @@
+
+body { font-size:x-small;
+    background-color: white;
+    font-size:1em;
+    font-family:Monaco;
+}
+table,tbody,th,tr,td{
+    font-size: xx-small;
+    font-family: Monaco;
+    border: 1px solid lightgray;
+    border-spacing: 5px 0;
+}
+td{
+    padding: 0 5px;
+    text-align: right;
+}
+#selectDevices{
+    font-size: xx-small;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UsefulTimeSeries</name>
+    </assembly>
+    <members>
+        <member name="M:UsefulTimeSeries.UsefulDatesTimes.Rfc3339ToTicks(System.String)">
+            Un TimeSpan est une durée. Elle  s'exprime comme suit:
+             TimeSpan ex1 = new TimeSpan(day,hour,minute,second,millisecond,microsecond);
+             Chaque fois qu'on fait appel à une propriété genre: ex1.Seconds il donnera le champ secondes.
+             Par contre si on demande la propriété ex1.Ticks il donne la somme des Ticks que représente le TimeSpan
+             et pas un multiple des microsecondes
+            
+        </member>
+    </members>
+</doc>
